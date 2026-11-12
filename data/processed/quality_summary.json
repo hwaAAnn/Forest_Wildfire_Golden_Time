@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "encoding": "cp949",
+    "rows": 2020,
+    "file_cols": 18,
+    "dict_cols": 30,
+    "dict_cols_missing_in_file": [
+      "발생일시_결합",
+      "진화종료일시_결합",
+      "진화소요시간_분",
+      "데이터오류_플래그",
+      "표준_시도코드",
+      "표준_시도명",
+      "표준_시군구코드",
+      "표준_시군구명",
+      "표준_법정동코드",
+      "표준_법정동명",
+      "표준코드_매칭수준",
+      "표준코드_현행여부"
+    ],
+    "occ_min": "2022-01-01 00:24:00",
+    "occ_max": "2025-09-11 16:13:00",
+    "portal_meta": {
+      "temporalCoverage": "2022년 ~ 2024년 9월",
+      "전체 행": "1",
+      "업데이트 주기": "연간"
+    },
+    "err_reversed": 12,
+    "err_year": 2,
+    "err_year_values": [
+      2055,
+      2223
+    ],
+    "cause_code_missing": 0.14554455445544554,
+    "cause_etc_direct": 1479,
+    "emd_missing": 0.15198019801980198,
+    "sgg_missing": 0.006435643564356435,
+    "cause_etc_reclassifiable": 967,
+    "cause_etc_examples": {
+      "입산자실화추정": 230,
+      "입산자실화": 224,
+      "미상": 158,
+      "원인미상": 106,
+      "쓰레기소각": 97,
+      "담뱃불실화": 52,
+      "조사중": 36,
+      "성묘객실화": 34
+    },
+    "cause_etc_unique_texts": 322
+  },
+  "history": {
+    "rows": 2030,
+    "date_min": "2022-01-01",
+    "date_max": "2025-11-10",
+    "start_not_on_report_day": 31,
+    "start_after_report_max_days": 99,
+    "end_before_start": 41,
+    "days_with_single_sunset": 1.0,
+    "n_days": 607,
+    "sunset_dev_median_min": 3.0760838272833335,
+    "sunset_dev_max_min": 17.101268916783333
+  },
+  "risk": {
+    "rows": 2020,
+    "date_max": "2025-08-22",
+    "missing": 0.3693069306930693,
+    "missing_by_year": {
+      "2022": 0.508,
+      "2023": 0.379,
+      "2024": 0.304,
+      "2025": 0.133
+    },
+    "missing_small": 0.388259526261586,
+    "missing_10ha": 0.08974358974358974,
+    "values_with_padding": {
+      "신고유형": 437,
+      "재난문자요청여부": 450
+    },
+    "mega_2025": [
+      {
+        "addr": "경상남도 산청군 시천면",
+        "area_ha": 3397.52,
+        "index": 34.0,
+        "same_day_median": 82.0
+      },
+      {
+        "addr": "경상북도 의성군 안평면",
+        "area_ha": 46575.2,
+        "index": 36.0,
+        "same_day_median": 84.0
+      },
+      {
+        "addr": "울산광역시 울주군 온양읍",
+        "area_ha": 1117.38,
+        "index": 85.0,
+        "same_day_median": 84.0
+      },
+      {
+        "addr": "경상북도 의성군 안계면",
+        "area_ha": 52707.3,
+        "index": 42.0,
+        "same_day_median": 84.0
+      }
+    ]
+  },
+  "join": {
+    "common_id": false,
+    "matched": 1997,
+    "total": 2020,
+    "end_mismatch_gt6h": 150,
+    "end_mismatch_gt24h": 58,
+    "compared": 1997,
+    "coverage_end": {
+      "산불통계데이터": "2025-09-11",
+      "산불상태별 이력": "2025-11-10",
+      "신고유형별 위험지수": "2025-08-22",
+      "단계별 동원력 이력": "2025-08-25"
+    }
+  },
+  "forecast": {
+    "rows": 49117,
+    "t_min": "2017-01-17 15:00:00",
+    "t_max": "2026-06-11 22:00:00",
+    "sido_variants": 32,
+    "sido_true": 16,
+    "sido_examples": [
+      "강원",
+      "강원도",
+      "강원특별자치도",
+      "경기",
+      "경기도",
+      "경남",
+      "경북",
+      "경상남도",
+      "경상북도",
+      "광주",
+      "광주광역시",
+      "대구",
+      "대구광역시",
+      "대전",
+      "부산",
+      "부산광역시",
+      "세종",
+      "세종특별자치시",
+      "울산",
+      "울산광역시",
+      "인천",
+      "전남",
+      "전남광주",
+      "전라남도",
+      "전라북도",
+      "전북",
+      "제주",
+      "제주특별자치도",
+      "충남",
+      "충북",
+      "충청남도",
+      "충청북도"
+    ],
+    "grade_counts": {
+      "주의보": 49116,
+      "경보": 1
+    },
+    "meets_warn_but_jueuibo": 568,
+    "the_only_warn": [
+      {
+        "t": "2017-03-08 15:00:00",
+        "sgg": "정선군",
+        "emd": "정선읍",
+        "eff_hum": "34.9",
+        "wind": "11.7"
+      }
+    ],
+    "wind_ge_30": 62,
+    "wind_max": 74.8,
+    "effhum_zero": 3
+  },
+  "resources": {
+    "crew_rows": 90,
+    "crew_dup_rows": 1
+  }
+}

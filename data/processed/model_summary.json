@@ -1,0 +1,12 @@
+{
+  "threshold_top10": 0.8766963843486875,
+  "lead": {
+    "n_mobilized": 60,
+    "n_flagged": 27,
+    "n_mob3": 18,
+    "n_mob3_flagged": 12,
+    "median_lead_min_flagged": 105.0,
+    "median_lead3_min_flagged": 219.5,
+    "flagged_area_share": 0.9300678588519017
+  }
+}
