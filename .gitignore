@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+
+# 원본은 src/download.py로 다시 받는다
+data/raw/
+# 기상청 일자료 원본 가공본·중간 산출물(용량)
+data/processed/asos_daily.csv.gz
+data/processed/shap_values.npy
